@@ -1,0 +1,52 @@
+{
+  "name": "datavault-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@headlessui/react": "^1.7.15",
+    "@mantine/core": "^6.0.16",
+    "@mantine/dropzone": "^6.0.16",
+    "@mantine/hooks": "^6.0.16",
+    "@metamask/eth-sig-util": "^6.0.0",
+    "@thirdweb-dev/react": "^3.14.8",
+    "@thirdweb-dev/sdk": "^3.10.28",
+    "@types/node": "20.4.1",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "ethers": "^5.7.2",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^10.12.21",
+    "jszip": "^3.10.1",
+    "next": "13.4.9",
+    "nextjs-progressbar": "^0.0.16",
+    "nprogress": "^0.2.0",
+    "postcss": "8.4.25",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-toastify": "^9.1.3",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.1.6",
+    "uuid": "^9.0.0",
+    "zustand": "^4.3.9"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/crypto-js": "^4.1.1",
+    "@types/file-saver": "^2.0.5",
+    "@types/uuid": "^9.0.2",
+    "encoding": "^0.1.13",
+    "lokijs": "^1.5.12",
+    "pino-pretty": "^10.0.0"
+  }
+}
